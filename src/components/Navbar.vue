@@ -64,7 +64,20 @@
 </script>
 
 <style>
-
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+body::-webkit-scrollbar-track {
+  background: -webkit-linear-gradient(rgb(5, 202, 156), rgb(184, 14, 184));       /* color of the tracking area */
+}
+ul::-webkit-scrollbar-track {
+  background: -webkit-linear-gradient(rgb(5, 202, 156), rgb(184, 14, 184));       /* color of the tracking area */
+}
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(0, 0, 0);    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 2px solid rgb(255, 255, 255);  /* creates padding around scroll thumb */
+}
 	/*Navbar*/
 	.navbar {
 		z-index: 1000;
