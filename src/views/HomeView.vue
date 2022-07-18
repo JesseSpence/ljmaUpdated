@@ -65,6 +65,15 @@
 		z-index: 100;
 		animation: logofloat 4s infinite 
 	}
+	@media screen and (max-width:550px) {
+		#controller {
+			margin-top: -125px;
+		}
+		.LG{
+		
+			transform:scale(0.8);
+		}
+	}
 	@keyframes logofloat {
 		0%{
 			font-size: 500px;

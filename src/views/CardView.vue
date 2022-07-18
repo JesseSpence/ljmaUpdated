@@ -23,7 +23,7 @@
 						<select
 						v-model="category"
 							style="width: 200px"
-
+                        class="slct"
 						>
 							<option selected value="all">Category</option>
 							<option value="Games">Games</option>
@@ -36,6 +36,7 @@
 						<select
 						v-model="company"
 							style="width: 200px"
+							 class="slct"
 						>
 							<option selected value="all">Company</option>
                 <option value="Activision">Activision</option>
@@ -144,10 +145,11 @@ button{
 		align-items: center;
 	}
 	select {
-    background: transparent;
     border: pink 5px dashed;
+	display: block;
     transform: scale(0.5);
     color: pink;
+	stroke: 1px solid #000000;
 	font-weight: 900;
 		transform: scale(0.5);
 	}
@@ -163,9 +165,11 @@ button{
 		animation: gloski 1.5s linear infinite;
 		font-weight: 900;
 	}
-select option:checked, select option:hover {
-	background: rgba(200, 200, 200, 0.3);
-	background-color: transparent !important;
+	.slct{
+		background-color: rgba(35, 35, 35, 0.547);
+	}
+option {
+	-webkit-text-stroke: 1px rgba(255, 255, 255, 0.259);
 }
 	#tv {
 		position: absolute;
