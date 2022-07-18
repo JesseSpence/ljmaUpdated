@@ -4,8 +4,9 @@
 			<div class="brand">
 				<a href="./index.html"
 					><img
+					style="background:transparent"
 						id="navlogo"
-						src="https://i.postimg.cc/SNGPvJ5m/Nice-Png-game-controller-png-300397.png"
+						src="https://iili.io/wkecAv.md.png"
 				/></a>
 			</div>
 			<a id="navbrand" class="navbar-brand fw-bold" href="./index.html">LG</a>
