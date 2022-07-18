@@ -4,7 +4,7 @@
 			<div class="brand">
 				<a href="./index.html"
 					><img
-					style="background:transparent"
+					style="background:black"
 						id="navlogo"
 						src="https://iili.io/wkecAv.md.png"
 				/></a>
@@ -96,9 +96,7 @@ body::-webkit-scrollbar-thumb {
 		height: 50px;
 		width: 55px;
 	}
-	.brand {
-		background-color: white;
-	}
+	
 	#navbrand {
 		margin-top: -30px;
 	}
